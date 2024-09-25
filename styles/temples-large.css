@@ -1,0 +1,11 @@
+.gallery {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+nav ul {
+    text-align: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
