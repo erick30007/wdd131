@@ -68,5 +68,11 @@
         <p>©️2024 🌴 Erick Barahona 🌴 Lima, Perú <span id="currentyear"></span></p>
         <p id="lastModified"></p>
     </footer>
+
+    <script>
+        document.getElementById("currentyear").textContent = new Date().getFullYear();
+        document.getElementById("lastModified").textContent = `Last modified: ${document.lastModified}`;
+    </script>
 </body>
 </html>
+
