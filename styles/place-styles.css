@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -33,6 +33,12 @@ header {
     margin-left: 0.5rem;
 }
 
+.weather-icon::after {
+    content: url('images/weather-icon.svg');
+    display: inline-block;
+    margin-left: 10px;
+}
+
 footer {
     background-color: var(--main-color);
     color: white;
@@ -51,3 +57,4 @@ footer {
         font-size: 1rem;
     }
 }
+

@@ -6,6 +6,9 @@
     <meta name="description" content="WDD 131 - Dynamic Web Fundamentals, Erick Barahona, Page Content">
     <meta name="author" content="Erick Barahona">
     <title>Madagascar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/place-styles.css">
     <script src="scripts/place.js" defer></script>
 </head>
@@ -17,8 +20,8 @@
     <main>
         <section class="hero">
             <picture>
-                <source media="(min-width: 600px)" srcset="large-image.webp">
-                <img src="images/lemur_600px.webp" alt="Lemurs in Madagascar">
+                <source media="(min-width: 600px)" srcset="images/large-image.webp">
+                <img src="images/lemur_600px.jpg" alt="Lemurs in Madagascar">
             </picture>
         </section>
 
@@ -37,7 +40,9 @@
         </section>
 
         <section class="weather">
-            <h2>Weather <span class="weather-icon">⛅</span></h2>
+            <h2>Weather <span class="weather-icon">
+              <img src="images/weather-icon.svg" alt="Weather icon">
+            </span></h2>
             <ul>
                 <li>Temperature: 10°C</li>
                 <li>Conditions: Partly Cloudy</li>
@@ -48,7 +53,7 @@
     </main>
 
     <footer>
-        <p>&copy; <span id="year"></span> ©️🌴 Erick Barahona 🌴 Lima, Perú</p>
+        <p>&copy; <span id="year"></span> 🌴 Erick Barahona 🌴 Lima, Perú</p>
         <p>Last Modification: <span id="last-modified"></span></p>
     </footer>
 </body>
