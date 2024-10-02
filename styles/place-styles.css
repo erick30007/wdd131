@@ -1,0 +1,53 @@
+:root {
+    --main-color: #c60c30;
+    --secondary-color: #006233;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--main-color);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.data, .weather {
+    margin: 2rem;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.weather-icon {
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+}
+
+footer {
+    background-color: var(--main-color);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 600px) {
+    .data, .weather {
+        padding: 0.5rem;
+        margin: 1rem;
+    }
+
+    .weather-icon {
+        font-size: 1rem;
+    }
+}

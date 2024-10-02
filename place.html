@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals, Erick Barahona, Page Content">
+    <meta name="author" content="Erick Barahona">
+    <title>Madagascar</title>
+    <link rel="stylesheet" href="place-styles.css">
+    <script src="place.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Madagascar</h1>
+    </header>
+
+    <main>
+        <section class="hero">
+            <picture>
+                <source media="(min-width: 600px)" srcset="large-image.webp">
+                <img src="lemur_600px.webp" alt="Lemurs in Madagascar">
+            </picture>
+        </section>
+
+        <section class="data">
+            <h2>Data</h2>
+            <ul>
+                <li>Area: 587,041 sq km</li>
+                <li>Population: 27,691,018</li>
+                <li>Capital: Antananarivo</li>
+                <li>Languages: Malagasy, French</li>
+                <li>Currency: Malagasy Ariary</li>
+                <li>Time Zone: UTC+3</li>
+                <li>Calling Code: +261</li>
+                <li>Internet TLD: .mg</li>
+            </ul>
+        </section>
+
+        <section class="weather">
+            <h2>Weather <span class="weather-icon">⛅</span></h2>
+            <ul>
+                <li>Temperature: 10°C</li>
+                <li>Conditions: Partly Cloudy</li>
+                <li>Wind: 5 km/h</li>
+                <li>Wind Chill: <span id="windchill"></span></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> ©️🌴 Erick Barahona 🌴 Lima, Perú</p>
+        <p>Last Modification: <span id="last-modified"></span></p>
+    </footer>
+</body>
+</html>
