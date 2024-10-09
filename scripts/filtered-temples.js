@@ -55,6 +55,30 @@ const temples = [
       imageUrl:
       "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
     },
+    {
+      templeName: "Rio de Janeiro Brazil",
+      location: "Barra da Tijuca, Brasil",
+      dedicated: "2022, may, 8",
+      area: 29966,
+      imageUrl:
+      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/rio-de-janeiro-brazil/400x250/4-5aa85fb6f20a17f629302687710142328a707d4d.jpeg"
+    },
+    {
+      templeName: "Adelaide Australia",
+      location: "Portrush Road, Australia",
+      dedicated: "2000, june, 15",
+      area: 10700,
+      imageUrl:
+      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/adelaide-australia/400x250/adelaide-australia-temple-lds-856093-wallpaper.jpg"
+    },
+    {
+      templeName: "Bismarck North Dakota",
+      location: "North Dakota, United States",
+      dedicated: "1999, Setember, 19",
+      area: 10700,
+      imageUrl:
+      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/bismarck-north-dakota/400x250/bismarck-temple-lds-829428-wallpaper.jpg"
+    },
   ];
   
 
