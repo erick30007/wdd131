@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals, Erick Barahona, Page Content">
+    <meta name="author" content="Erick Barahona">
+    <title>Temple Album</title>
+    <link rel="stylesheet" href="styles/filtered-temple.css">
+    <link rel="stylesheet" href="styles/filtered-temples-large.css" media="screen and (min-width: 768px)">
+    <script defer src="scripts/filtered-temples.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Temple Album</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Old</a></li>
+                <li><a href="#">New</a></li>
+                <li><a href="#">Large</a></li>
+                <li><a href="#">Small</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <h2>Home</h2>
+        <section class="gallery">
+
+        </section>
+    </main>
+
+    <footer>
+        <p>©️2024 🌴 Erick Barahona 🌴 Lima, Perú <span id="currentyear"></span></p>
+        <p id="lastModified"></p>
+    </footer>
+
+    <script>
+        document.getElementById("currentyear").textContent = new Date().getFullYear();
+        document.getElementById("lastModified").textContent = `Last modified: ${document.lastModified}`;
+    </script>
+</body>
+</html>
+
+
