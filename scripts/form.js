@@ -15,6 +15,17 @@ const products = [
       productNameDropdown.appendChild(option);
   });
   
+function updateReviewCount() {
+    let reviewCount = localStorage.getItem('reviewCount') || 0;
+    reviewCount++;
+    localStorage.setItem('reviewCount', reviewCount);
+    document.getElementById('reviewCountDisplay').textContent = `Reviews completed: ${reviewCount}`;
+}
+
+window.onload = function() {
+    updateReviewCount();
+};
+
 
   document.getElementById('lastModified').textContent = `Last Modification: ${document.lastModified}`;
   document.getElementById('currentyear').textContent = new Date().getFullYear();
