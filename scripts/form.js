@@ -1,7 +1,3 @@
-document.getElementById('currentyear').textContent = new Date().getFullYear();
-
-document.getElementById('lastModified').textContent = "Last Modification: " + document.lastModified;
-
 const products = [
     { id: "fc-1888", name: "flux capacitor", averagerating: 4.5 },
     { id: "fc-2050", name: "power laces", averagerating: 4.7 },
@@ -10,24 +6,17 @@ const products = [
     { id: "jj-1969", name: "warp equalizer", averagerating: 5.0 }
   ];
   
-  document.addEventListener("DOMContentLoaded", () => {
-    const productSelect = document.getElementById('product');
-  
-    products.forEach(product => {
+
+  const productNameDropdown = document.getElementById('productName');
+  products.forEach(product => {
       const option = document.createElement('option');
       option.value = product.name;
       option.textContent = product.name;
-      productSelect.appendChild(option);
-    });
+      productNameDropdown.appendChild(option);
   });
+  
 
-  document.addEventListener("DOMContentLoaded", () => {
-    let reviewCount = localStorage.getItem("reviewCount") || 0;
-    reviewCount++;
-    localStorage.setItem("reviewCount", reviewCount);
-    document.getElementById("review-counter").textContent = `Reviews submitted: ${reviewCount}`;
-  });
-
-  <p id="review-counter">Reviews submitted: 0</p>
-
+  document.getElementById('lastModified').textContent = `Last Modification: ${document.lastModified}`;
+  document.getElementById('currentyear').textContent = new Date().getFullYear();
+  
   
