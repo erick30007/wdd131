@@ -15,7 +15,7 @@ products.forEach(product => {
 });
 
 function updateReviewCount() {
-    let reviewCount = localStorage.getItem('reviewCount') || 0;
+    let reviewCount = parseInt(localStorage.getItem('reviewCount')) || 0; 
     reviewCount++;
     localStorage.setItem('reviewCount', reviewCount);
     document.getElementById('reviewCountDisplay').textContent = `Reviews completed: ${reviewCount}`;
