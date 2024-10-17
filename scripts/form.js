@@ -22,10 +22,11 @@ function updateReviewCount() {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-    updateReviewCount();
-
-    document.getElementById('lastModified').textContent = `Last Modification: ${document.lastModified}`;
     document.getElementById('currentyear').textContent = new Date().getFullYear();
+
+    const lastModified = document.lastModified;
+    document.getElementById('lastModified').textContent = `Last Modification: ${lastModified}`;
 });
+
 
   
