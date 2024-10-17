@@ -6,7 +6,7 @@ const products = [
     { id: "jj-1969", name: "warp equalizer", averagerating: 5.0 }
 ];
 
-const productNameDropdown = document.getElementById('productName');
+const productNameDropdown = document.getElementById('product');
 products.forEach(product => {
     const option = document.createElement('option');
     option.value = product.id;
