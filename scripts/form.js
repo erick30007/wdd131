@@ -15,11 +15,20 @@ products.forEach(product => {
 });
 
 function updateReviewCount() {
-    let reviewCount = parseInt(localStorage.getItem('reviewCount')) || 0; 
+    let reviewCount = localStorage.getItem('reviewCount');
+
+    if (reviewCount === null) {
+        reviewCount = 0;
+    } else {
+        reviewCount = parseInt(reviewCount); 
+    }
+
     reviewCount++;
     localStorage.setItem('reviewCount', reviewCount);
+
     document.getElementById('reviewCountDisplay').textContent = `Reviews completed: ${reviewCount}`;
 }
+
 
 document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('currentyear').textContent = new Date().getFullYear();
