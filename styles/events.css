@@ -1,3 +1,4 @@
+
 main {
     max-width: 800px;
     margin: 2rem auto;
@@ -6,11 +7,15 @@ main {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+
 h2 {
-    color: #3498db;
+    color: #3498db; 
     font-family: 'Lora', serif;
     margin-bottom: 1rem;
+    text-align: center; 
+    font-size: 2rem; 
 }
+
 
 article {
     margin-bottom: 2.5rem;
@@ -20,6 +25,7 @@ article {
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
+
 article img {
     display: block;
     margin: 1rem auto;
@@ -28,16 +34,20 @@ article img {
     border-radius: 6px;
 }
 
+
 article h3 {
     font-family: 'Lora', serif;
     font-size: 1.8rem;
-    color: #333;
+    color: #3498db; 
     margin-bottom: 0.5rem;
+    text-align: center; 
 }
 
 article p {
     font-size: 1rem;
     color: #555;
     line-height: 1.5;
+    text-align: justify; 
 }
+
 
