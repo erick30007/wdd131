@@ -6,7 +6,6 @@ body {
     padding: 0;
 }
 
-
 header {
     background-color: #3498db;
     color: white;
@@ -14,13 +13,11 @@ header {
     padding: 1rem;
 }
 
-
 nav a {
     margin: 0 15px;
     color: white;
     text-decoration: none;
 }
-
 
 main {
     max-width: 800px;
@@ -30,40 +27,27 @@ main {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-
-h1 {
-    font-size: 2.5rem;
-    color: #3498db;
-    margin-top: 0;
+h1, h2 {
+    color: #3498db; 
     text-align: center;
 }
 
-h2 {
-    font-size: 2rem;
-    color: #3498db;
-    margin-bottom: 1rem;
-}
-
 h3 {
-    font-size: 1.5rem;
-    color: #3498db;
-    margin-bottom: 0.5rem;
+    color: #3498db; 
+    margin-bottom: 10px;
 }
-
 
 article {
     margin-bottom: 2rem;
 }
 
-
 article img {
-    width: 400px; 
+    width: 400px;
     height: 250px;
     display: block;
-    margin: 10px auto; 
+    margin: 10px auto;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
 
 footer {
     background-color: #3498db;
@@ -73,12 +57,6 @@ footer {
     margin-top: 2rem;
 }
 
-footer img {
-    width: 24px;
-    height: 24px;
-    margin: 0 10px;
-    vertical-align: middle;
-}
 
 
 
