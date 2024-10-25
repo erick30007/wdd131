@@ -26,15 +26,16 @@ main {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+h1, h2 {
+    color: #3498db;
+}
+
 h1 {
     font-size: 2.5rem;
-    color: #3498db;
-    margin-top: 0;
     text-align: center;
 }
 
 h2 {
-    color: #3498db;
     font-size: 2rem;
     margin-bottom: 1rem;
 }
@@ -43,15 +44,13 @@ article {
     margin-bottom: 2rem;
 }
 
-
 article img {
-    width: 400px; 
-    height: 250px; 
+    width: 400px;
+    height: 250px;
     display: block;
-    margin: 10px auto; 
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    margin: 10px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
 
 footer {
     background-color: #3498db;
@@ -67,4 +66,5 @@ footer img {
     margin: 0 10px;
     vertical-align: middle;
 }
+
 

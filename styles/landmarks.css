@@ -1,6 +1,8 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -28,8 +30,26 @@ h1, h2 {
     color: #3498db;
 }
 
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
 article {
     margin-bottom: 2rem;
+}
+
+article img {
+    width: 400px;
+    height: 250px;
+    display: block;
+    margin: 10px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 footer {
@@ -39,3 +59,11 @@ footer {
     padding: 1rem;
     margin-top: 2rem;
 }
+
+footer img {
+    width: 24px;
+    height: 24px;
+    margin: 0 10px;
+    vertical-align: middle;
+}
+
